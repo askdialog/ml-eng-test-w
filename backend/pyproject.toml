@@ -1,0 +1,14 @@
+[project]
+name = "electronics-product-rag"
+version = "1.0.0"
+description = "RAG-based product recommendation agent for electronics"
+requires-python = ">=3.11"
+
+dependencies = ["fastapi[standard]>=0.115.0", "python-dotenv>=1.0.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]

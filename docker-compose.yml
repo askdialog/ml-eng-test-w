@@ -1,0 +1,60 @@
+# Electronics Product RAG - Docker Compose
+# Development environment for the take-home assignment
+
+version: '3.8'
+
+services:
+  # Backend API server
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - DEBUG=true
+      - LOG_LEVEL=INFO
+    volumes:
+      # Mount source code for development (hot reload)
+      - ./backend:/app/backend
+      - ./data:/app/data
+      - ./evaluation:/app/evaluation
+    command: uv run uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Frontend development server
+  frontend:
+    image: node:20-alpine
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    command: sh -c "npm install && npm run dev"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+# Optional: Uncomment to add a vector database service
+# Use this if you want to run ChromaDB or another vector store in Docker
+
+#   chromadb:
+#     image: chromadb/chroma:latest
+#     ports:
+#       - "8001:8000"
+#     volumes:
+#       - chroma_data:/chroma/chroma
+#     environment:
+#       - ANONYMIZED_TELEMETRY=false
+
+# volumes:
+#   chroma_data:

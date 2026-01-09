@@ -1,0 +1,122 @@
+[
+  {
+    "query_id": "q_001",
+    "message": "I need wireless noise canceling headphones for my daily commute, budget around $300",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_002",
+    "message": "Compare the Sony WH-1000XM5 and Apple AirPods Max",
+    "chat_history": [
+      {"role": "user", "content": "What are the best premium noise canceling headphones?"},
+      {"role": "assistant", "content": "For premium noise canceling headphones, the top contenders are the Sony WH-1000XM5, Apple AirPods Max, and Bose QuietComfort Ultra. The Sony offers excellent noise cancellation and 30-hour battery life at $399. The AirPods Max provides premium build quality and seamless Apple integration at $549. The Bose excels in comfort for extended wear. Would you like me to compare any of these in detail?"}
+    ]
+  },
+  {
+    "query_id": "q_003",
+    "message": "Best laptop for video editing under $2000",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_004",
+    "message": "gaming laptop rtx 4070 16gb ram",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_005",
+    "message": "iPhone 15 Pro Max",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_006",
+    "message": "What's a good budget smartphone under $400?",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_007",
+    "message": "I want earbuds for working out that won't fall out",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_008",
+    "message": "MacBook Pro vs Dell XPS 15 for programming",
+    "chat_history": [
+      {"role": "user", "content": "I'm looking for a laptop for software development"},
+      {"role": "assistant", "content": "Great! For software development, key factors include a fast processor, at least 16GB RAM, good keyboard, and a high-resolution display. What's your budget range, and do you have a preference for macOS or Windows?"},
+      {"role": "user", "content": "Budget is around $2000-2500, and I'm open to either OS. I mainly do web development and some machine learning projects."},
+      {"role": "assistant", "content": "With that budget and use case, I'd recommend looking at the MacBook Pro 14\" or Dell XPS 15. Both offer excellent performance for development work. The MacBook Pro has the M3 Pro chip which is great for ML tasks, while the Dell XPS 15 offers more flexibility with Windows and typically has better port selection. Would you like me to compare these two specifically?"}
+    ]
+  },
+  {
+    "query_id": "q_009",
+    "message": "Samsung Galaxy S24 Ultra",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_010",
+    "message": "4K OLED TV 65 inch for movies",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_011",
+    "message": "What's the best smartwatch for running and fitness tracking?",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_012",
+    "message": "Wireless mechanical keyboard under $150",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_013",
+    "message": "Actually, I think I need a good monitor first. What do you recommend?",
+    "chat_history": [
+      {"role": "user", "content": "I'm setting up a home office and need some recommendations"},
+      {"role": "assistant", "content": "I'd be happy to help you set up your home office! There are several key items to consider: a good monitor, an ergonomic keyboard, a comfortable mouse, and perhaps a webcam for video calls. What aspects of your setup are you most interested in improving first?"},
+      {"role": "user", "content": "I do a lot of spreadsheet work and document editing, sometimes video calls"},
+      {"role": "assistant", "content": "For productivity work like spreadsheets and documents, I'd recommend starting with either a large single monitor (27-32 inches) or a dual monitor setup. A 4K display would give you crisp text which helps reduce eye strain during long work sessions. For video calls, a quality webcam can make a big difference. Would you like specific recommendations for monitors, or shall we look at a complete setup?"}
+    ]
+  },
+  {
+    "query_id": "q_014",
+    "message": "PS5 accessories",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_015",
+    "message": "Compare Google Pixel 8 Pro and Samsung Galaxy S24",
+    "chat_history": [
+      {"role": "user", "content": "I'm due for a phone upgrade and considering Android phones"},
+      {"role": "assistant", "content": "Android has some excellent options right now! The main flagship choices are from Samsung, Google, and OnePlus. Samsung offers the Galaxy S24 series with great displays and cameras. Google's Pixel 8 series is known for its clean software experience and exceptional computational photography. What matters most to you - camera quality, performance, software updates, or something else?"},
+      {"role": "user", "content": "Camera is really important to me, and I want something that will get updates for a long time"}
+    ]
+  },
+  {
+    "query_id": "q_016",
+    "message": "mirrorless camera for beginners",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_017",
+    "message": "I need a tablet for drawing and digital art",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_018",
+    "message": "RTX 4080 graphics card",
+    "chat_history": []
+  },
+  {
+    "query_id": "q_019",
+    "message": "What about something under $200?",
+    "chat_history": [
+      {"role": "user", "content": "I'm looking for wireless earbuds with good noise canceling"},
+      {"role": "assistant", "content": "There are several great options for wireless earbuds with active noise cancellation. At the premium end, you have the Apple AirPods Pro 2 and Sony WF-1000XM5 which offer best-in-class ANC. For mid-range options, the Samsung Galaxy Buds 2 Pro and Jabra Elite 85t are excellent choices. What's your budget range?"}
+    ]
+  },
+  {
+    "query_id": "q_020",
+    "message": "Smart home starter kit with voice control",
+    "chat_history": []
+  }
+]
